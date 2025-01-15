@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rspec', '~> 2.13.0'
-
 gemspec
+
+gem 'logger', '~> 1.6'
+gem 'rspec', '~> 2.13.0'
