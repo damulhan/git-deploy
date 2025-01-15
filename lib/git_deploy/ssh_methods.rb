@@ -30,7 +30,7 @@ class GitDeploy
     end
 
     def run_test(cmd)
-      status, = ssh_exec(cmd) {}
+      status, _output = ssh_exec(cmd) {}
       status == 0
     end
 
